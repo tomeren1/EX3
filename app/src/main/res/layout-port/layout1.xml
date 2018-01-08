@@ -62,7 +62,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/button1"
-                 android:background="@drawable/borders"/>
+                android:background="@drawable/borders"/>
             <Button
                 android:id="@+id/button2"
                 android:textSize="30dp"
@@ -153,16 +153,18 @@
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:id="@+id/linearLayout4"
-            android:background="#c9ddff">
+            android:background="#c9ddff"
+            android:weightSum="3">
 
             <TextView
                 android:id="@+id/textViewAnswer"
                 android:textSize="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="20dp"
                 android:textStyle="bold"
                 android:text="@string/answer"
+                android:layout_weight="1"
                 android:textColor="#000000"
                 android:gravity="center"
                 android:layout_width="40dp"
@@ -171,13 +173,26 @@
             <TextView
                 android:id="@+id/textViewTheAnswer"
                 android:layout_width="150dp"
+                android:layout_weight="1"
                 android:layout_height="50dp"
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="35dp"
+                android:layout_marginLeft="15dp"
                 android:gravity="center"
                 android:background="@drawable/roundborders"/>
+            <Button
+                android:id="@+id/buttonc"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Clean"
+                android:background="@drawable/borders"/>
+
 
         </LinearLayout>
 

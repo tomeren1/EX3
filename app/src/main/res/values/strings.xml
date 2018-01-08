@@ -6,5 +6,7 @@
     <string name="button2">-</string>
     <string name="button3">*</string>
     <string name="button4">/</string>
+    <string name="button5">Clean</string>
     <string name="answer">=</string>
+
 </resources>
